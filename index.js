@@ -5,3 +5,12 @@ for (let day = 1; day < 8; day++) {
   console.log("day:", day);
   console.log("amount:", amount);
 }
+
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+reverseString("45678");
+
+  
